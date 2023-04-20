@@ -1,0 +1,122 @@
+<!-- DEVELOPER: Petar Petroski, IS117-004, Spring 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biography</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+
+  <div class="row" id="topofthetop" >
+    <div class="row" style="padding: .5rem; background-color:white;">
+      <div class="col-md-6">
+        <a class="navbar-brand" href="index.html">PETROSKI</a>
+      </div>
+      <div class="col-md-6">
+        <form class="d-flex flex-nowrap" id="searchbar" style="float:right;">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit" id="searchbutton" ><img src="images/glass.svg" height="20rem" width="auto" alt="Searchbar"></button>
+        </form>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+      <!-- Brand -->
+
+      <!-- Responsive Button for the smaller menu -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Abilities
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="skills.html">Skills</a>
+              <a class="dropdown-item" href="certifications.html">Certifications</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbardrop2"
+               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Me
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="goals.html">Goals</a>
+              <a class="dropdown-item active" href="biography.html">Biography</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <div class="maincontainer ">
+      <div class="row mt-5 justify-content-center">
+        <div class="col-md-10 " >
+          <img src="images/me.jpg" class="img-fluid rounded-circle mb-3" alt="My Picture" style="width: 30%; height:auto; float:left; margin:0 2rem 2rem 2rem; padding:0 .5rem .5rem .5rem;">
+          <h1 style="font-family: 'Poppins', sans-serif;" id="hi">Hi! I'm Petar Petroski</h1>
+          <p class="lead" >I'm a Junior-year Undergraduate IT student. </p>
+          <p >Ever since I could remember, I’ve had a love for technology. I always enjoyed playing around with any form of tech I could get my hands on. The older I grew, the more interested I became in how everything worked. </p>
+          <p>I moved to the U.S when I was ten years old and had little to no prior knowledge on computers at the time. Getting my first laptop opened a whole new world of possibilities and I quickly became attached. </p>
+          <p>Fast forward to high school, I had the opportunity to take three coding classes which opened my eyes to the world of programming. The deeper I delved into each class, the stronger my passion for the subject grew. Taking these classes helped me form a passion that I am currently pursuing at Bergen Community College. </p>
+          <p>I entered Bergen in the Fall of 2021 as an Information Technology freshman ready to learn all that I could. Getting the first taste of how rigorous college classes can be didn’t scare me, and instead, motivated me to try and excel in them as much as I could. Each course that I took helped me go deeper into the world of IT, covering a wide variety of topics such as: Programming, networking, security, and systems analysis. My academic journey has been a wonderful experience all around. I truly feel blessed to have found a major that completes me in every way possible. </p>
+          <p>Academics is not the only place where I was able to grow my technical skills. From my first semester, I joined and became an active member of both the Computer Technology Club and STEM Club on campus. Doing so helped me connect with other like-minded individuals and grow my skills outside of the classroom. </p>
+          <p>During the beginning of the Spring semester, I ran for President of the Computer Technology Club and ended up winning. My goal from the start up until today has been to grow the number of members and engage them in career-focused activities. From technical workshops, guest speakers, and networking possibilities; planning events like these helped guide other members in their career paths. Helping others has helped me grow my skills and allowed me to get a better understanding of what it means to be a leader in tech. </p>
+          <p>My time at Bergen has been a never-ending experience of learning possibilities, and it’s time for me to take on the next step in my career. I plan on further expanding my education by earning a Bachelor’s degree. It is really important to keep climbing the education ladder, especially in the technology field. </p>
+          <p style="text-align: center">Feel free to <a href="contact.html">contact me</a> if you have any questions or check out my socials below!</p>
+          <ul class="list-inline " style="text-align: center">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/petroski" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" style="height:60px; width:auto;"></a></li>
+            <li class="list-inline-item"><a href="https://github.com/PetarPetroski" target="_blank"><img src="images/github.png" alt="GitHub" style="height:60px; width:auto;"></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/petar_petroski/" target="_blank"><img src="images/instagram.png" alt="Instagram" style="height:60px; width:auto;"></a></li>
+            <li class="list-inline-item"><a href="mailto:petar.petroski2003@gmail.com" target="_blank"><img src="images/mail.png" alt="Email" style="height:60px; width:auto;"></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+
+</div>
+    <footer class="footer page-footer font-small ">
+      <div class="container">
+        <div class="row" id="footertop">
+          <span>PETROSKI</span>
+        </div>
+        <div class="row" id="footerunder">
+          <span class="text-muted">Terms Of Use | &copy; Petar Petroski, 2023 | Privacy Statement</span>
+        </div>
+      </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>

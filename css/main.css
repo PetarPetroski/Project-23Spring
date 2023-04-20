@@ -1,0 +1,303 @@
+/* DEVELOPER: Petar Petroski, IS117-004, Spring 2023 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E8E8EC;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+.btn-primary{
+    background-color:#C1FF72;
+    color: black;
+    border-color:black;
+    border-radius:.6rem;
+}
+
+#btns{
+    margin:8px;
+    font-size:1.6rem;
+    padding: .6rem 1.5rem;
+}
+.btn-primary:hover {
+    background-color:black;
+    color: #C1FF72 ;
+}
+#btnfr{
+    text-align: center;
+
+
+}
+h1{
+    margin:0 0 .04rem 0;
+    text-align: center;
+}
+.row>.formfr{
+    width:70%;
+    margin: 0 auto;
+}
+
+body form{
+    font-size: 1.5rem;
+
+}
+
+.form-group #text {
+    padding:8px 8px 100px;
+}
+body{
+    height:100%;
+    font-size:1.1rem;
+}
+
+
+.rrow {
+    width: 100%;
+}
+
+.block {
+    width: 200px;
+    display: inline-block; // display inline with ability to provide width/height
+}
+
+.block #bruh{
+    float: right;
+    display: inline-block; // display inline with ability to provide width/height
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.navbar-brand{
+    margin-left: 1.5rem;
+    color:black;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand:hover{
+    color:#C1FF72;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.btn-outline-success{
+    color: black;
+    border-color:black;
+
+}
+
+.btn-outline-success:hover{
+    background-color: #C1FF72;
+    color:black;
+    border-color:black;
+}
+
+.btn-outline-success:active{
+    background-color: #C1FF72;
+    color:black;
+    border-color:black;
+}
+
+.form-control:focus{
+    border-color: #C1FF72;
+    box-shadow: inset 0 1px 1px #C1FF72, 0 0 8px #C1FF72;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+#goals {
+    flex: 0 0 auto;
+    width: 50%;
+    padding:.5rem;
+}
+.form-control #searchbar{
+    display: inline-block;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.btn #searchbutton{
+    display: inline-block;
+    width: 20%;
+}
+.btn #searchbutton:active{
+    outline-color:red;
+}
+
+.navbar-dark .navbar-nav .nav-link:active{
+    color:#C1FF72;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#C1FF72;
+}
+
+#footertop{
+    font-family: 'Poppins';
+    color:black!important;
+    font-size: 1.5rem;
+    padding:0;
+}
+
+#footerunder{
+    color:black;
+}
+.footer {
+    position: absolute!important;
+    left: 0!important;
+    bottom: 0!important;
+    padding:5px;
+    height: 75px;
+}
+
+.dropdown-item.active{
+    background-color: #C1FF72;
+    color:black;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color:#C1FF72;
+    background-color:#2B2B2B;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+.card{
+    float:right;
+    margin:10px;
+}
+
+@media (max-width: 768px){
+    .img-fluid {
+        width:50%;
+    }}
+
+@media (max-width: 768px){
+
+}
+.row>.card{
+    padding:0;
+}
+
+.row>h1{
+    padding: 0.4rem 0 0.1rem 0;
+}
+
+.container-fluid{
+    margin-bottom:75px;
+
+}
+.maincontainer{
+    margin-top: 130px;
+    padding: 0.4rem 0 0.1rem 0;
+}
+#contact{
+    margin-top: 107px;
+    padding: 0.4rem 0 0.1rem 0;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+li{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+
+.col-md-3, .col-md-1{
+    text-align:center;
+    margin:auto;
+}
+.col-md-3 h5{
+font-size:1.2rem;}
+
+#topofthetop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.col-sm-3{
+    padding: .5rem;
+    display:block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-sm-9{
+    padding:.5rem;
+    width:100%;
+}
+
+#hi{
+    font-size:3rem;
+    padding:1rem;
+}
+
+.card-img-top{
+    height:150px;
+    width:auto;
+    margin:auto;
+    padding:.5rem;
+}
+#indeximages{
+    height:auto;
+    width:75%;
+    margin:auto;
+    padding:.5rem;
+}
+
+@media (max-width: 768px){
+    #indeximages{
+        height:auto;
+        width:70%;
+        margin:auto;
+        padding:.5rem;
+    }
+}
+.mb-5{
+    margin:0!important;
+}
+
+#experience{
+    float:none;
+    margin:1rem;
+}
+
+@media (max-width: 768px){
+    .col-md-9, .col-md-5 {
+        flex: 0 0 auto;
+        width: 75%;
+    }}
+
+#goalsrow {
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+    #goalsrow{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem -15px;
+    }
+}
+@media (max-width: 768px) {
+    #demo{
+        width:80%!important;
+    }
+}
